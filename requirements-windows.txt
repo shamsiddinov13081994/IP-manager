@@ -1,0 +1,8 @@
+# IPmanager — Windows uchun kutubxonalar
+# O'rnatish:  pip install -r requirements-windows.txt
+
+Flask>=3.0,<4.0
+Werkzeug>=3.0,<4.0
+waitress>=3.0        # Windows uchun WSGI server (Gunicorn o'rniga)
+pywebview>=5.0       # dasturni o'z oynasida (native window) ko'rsatish uchun
+pyinstaller>=6.0     # .exe yaratish uchun
